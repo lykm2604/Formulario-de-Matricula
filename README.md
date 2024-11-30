@@ -15,10 +15,6 @@ Projeto de um Formulário de matrícula desenvolvido durante as aulas sobre Form
 
 <br>
 
-<p align="center">
-  <img alt="Preview do projeto desenvolvido." src=".github/preview.png" width="100%">
-</p>
-
 
 ## 🚀 Tecnologias
 
