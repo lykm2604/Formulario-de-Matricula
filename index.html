@@ -30,7 +30,8 @@
 
           <form type="post" enctype="multipart/form-data">
             <fieldset class="child-info">
-              <legend>Informações da criança<legend>
+              <fieldset>
+              <legend>Informações da criança</legend>legend>
               <div class="input-wrapper">
                 <label for="fullname">Nome completo</label>
                 <input id='fullname' type="text" name="fullname" placeholder="Qual o nome da criança">
@@ -50,12 +51,13 @@
                 </select>
               </div>
 
+              
               <div class="text-wrapper">
                 <label for="magical-info">Informações médicas</label>
                 <textarea name="magical-info" id="magical-info" cols="30" rows="6" placeholder="A criança possui alguma condição médica que a escola deve estar ciente? (Se sim, especifique)"></textarea>
               </div>
 
-              <div class="droparea-wrapper">
+            <div class="droparea-wrapper">
                 <label for="birth-file">Certidão de Nascimento</label>
 
                 <div class="dropzone">
@@ -71,7 +73,9 @@
                   </p>
                 </div>
               </div>
-            </fieldset>
+              </fieldset>
+            
+
             <fieldset class="address">
               <legend>Endereço Residencial</legend>
 
@@ -127,6 +131,29 @@
                   <img src="assets/icons/alert-circle.svg" alt="ícone de alerta vermelho">
                   <span>Insira um E-mail válido</span>
                 </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="enroll-options">
+              <legend>Opções de Matrícula</legend>
+              <div class="input-wrapper">
+                <label >Selecione o Turno de Estudo</label>
+                <div class="radio-wrapper">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="study-shift" value="morning" id="morning">
+                  <img src="assets/icons/sun-cloud-02.svg" alt="ícone de sol com nuvem">
+                  <label for="morning">Manhã</label>
+                </div>
+
+                <div class="input-wrapper">
+                <label >Selecione o Turno de Estudo</label>
+                <div class="radio-wrapper">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="study-shift" value="evening" id="evening">
+                  <img src="assets/icons/sun-02.svg" alt="ícone de sol">
+                  <label for="evening">Tarde</label>
+                </div>
+
               </div>
             </fieldset>
           </form>
